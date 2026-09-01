@@ -17,6 +17,10 @@ These are polished versions of hands-on learning labs.
 - Implementing upserts with `MERGE`
 - Inspecting Delta transaction history
 - Querying previous table versions with time travel
+- Building parameterized notebooks with Databricks widgets
+- Creating ETL logic with runtime parameters
+- Preparing queries for dashboards
+- Designing notebooks for Databricks Jobs and Workflows
 
 ## Notebooks
 
@@ -29,6 +33,9 @@ Uses a retail sales dataset to practice column expressions, filters, aggregation
 ### 03 - Delta Lake Operations
 Builds an inventory table and demonstrates append, update, `MERGE`, transaction history, time travel, and schema enforcement.
 
+### 04 · Parameterized ETL and Workflows
+Extends the previous exercises into a reusable Databricks workflow using runtime parameters, notebook widgets, transformation logic, and dashboard queries.
+
 ## Why I built this
 
 I created this project while strengthening my data engineering and analytics foundation in Databricks. My goal was to move beyond isolated exercises and present the work as a clear progression of practical lakehouse skills.
@@ -37,6 +44,5 @@ I created this project while strengthening my data engineering and analytics fou
 
 - Add data-quality checks before writes
 - Build a Bronze / Silver / Gold medallion pipeline
-- Add a Databricks Workflow to orchestrate notebook execution
 - Add automated tests for transformation logic
 - Build a small dashboard from the curated sales data
